@@ -1,12 +1,8 @@
 # Overview
 
-My goal for this project is to map out areas around Eastern Idaho that I enjoy exploring. I hope to be able to gain more exposure to GIS Mapping solutions.
+My goal for this project is to map out areas around Eastern Idaho that I enjoy exploring. I hope to be able to gain more exposure to GIS Mapping solutions. This was a very interesting projecct and inspired me with more ideas than I have time to actually implement. I was surprised by how quickly I was able to get the map to display, but additional customizations took about as long as I expected.
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/Erim2-gcf6E)
 
 # Development Environment
 
@@ -18,7 +14,7 @@ Javascript provides the main control and customization for the basemap and other
 
 * [ArcGIS Developers](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
 * [ArcGIS API Reference](https://developers.arcgis.com/javascript/latest/api-reference/)
-* [ArcGIS Symbol/Marker Documentation] (https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-Symbol.html)
+* [ArcGIS Symbol/Marker Documentation](https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-Symbol.html)
 * [ChatGPT](https://chatgpt.com/)
 
 
