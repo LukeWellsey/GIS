@@ -4,6 +4,8 @@ My goal for this project is to map out areas around Eastern Idaho that I enjoy e
 
 [Software Demo Video](https://youtu.be/Erim2-gcf6E)
 
+[View the Map Here](https://lukewellsey.github.io/GIS/)
+
 # Development Environment
 
 I designed this to be accessible from the web, so the map is embedded in an HTML page. I've customized the HTML with some CSS to provide a cleaner looking experience.
