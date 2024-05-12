@@ -18,6 +18,7 @@ Javascript provides the main control and customization for the basemap and other
 
 * [ArcGIS Developers](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
 * [ArcGIS API Reference](https://developers.arcgis.com/javascript/latest/api-reference/)
+* [ArcGIS Symbol/Marker Documentation] (https://developers.arcgis.com/javascript/latest/api-reference/esri-symbols-Symbol.html)
 * [ChatGPT](https://chatgpt.com/)
 
 
