@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewPort" content="width=device-width, initial-scale=1.0">
+    <title>ArcGIS Mapping Project</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.29/esri/themes/dark/main.css">
+    <!-- Running into an odd issue with the map being slightly oversized on multiple different window sizes, added sizing to compensate -->
+    <style>
+        #viewPort {
+            height: 97vh; 
+            width: 98vw;
+            border: 1px solid black;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="viewPort"></div>
+    <script src="https://js.arcgis.com/4.29/"></script>
+    <!-- I drew heavily on the documentation here as JS is not yet one of my strengths -->
+    <script>
+        require([
+            "esri/Map",
+            "esri/views/MapView"
+        ], function(Map, MapView) {
+            var map = new Map({
+                basemap: 'streets-night-vector' // can be changed between satellite, topo, streets-navigation-vector, osm, hybrid, gray, streets-night-vector.
+            });
+
+            var view = new MapView({
+                container: 'viewPort',
+                map: map,
+                center: [-111.7890, 43.8230], // Longitude, latitude of the map's initial displayed location, currently set to Rexburg, ID
+                zoom: 12
+            });
+        });
+    </script>
+</body>
+</html>

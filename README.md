@@ -12,19 +12,19 @@ My goal for this project is to map out areas around Eastern Idaho that I enjoy e
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+I designed this to be accessible from the web, so the map is embedded in an HTML page. I've customized the HTML with some CSS to provide a cleaner looking experience.
 
 {Describe the programming language that you used and any libraries.}
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [ArcGIS Developers](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map/)
+* [ArcGIS API Reference](https://developers.arcgis.com/javascript/latest/api-reference/)
+* [ChatGPT](https://chatgpt.com/)
+
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* I'd love to add a search box that will allow users to enter a location and pull it up
+* Providing the ability to save or bookmark locations and hide/show them on the map, maybe even with different color customization would be handy
+* Calculating travel time from one point to another would be a fun challenge
